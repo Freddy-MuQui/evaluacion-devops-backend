@@ -23,3 +23,7 @@ sudo docker run -d -p 3001:3001 \
   -e DB_PASSWORD=alumno123 \
   -e DB_NAME=tienda_perritos \
   --name contenedor_backend backend
+🛠️ Diagnóstico
+Para revisar que la API está funcionando correctamente y conectada a la BD:
+
+sudo docker logs contenedor_backend
